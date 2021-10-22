@@ -5,7 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prettier:base": "prettier --ignore-path .gitignore",
+    "eslint:base": "eslint --ignore-path .gitignore",
+    "lint:eslint": "yarn eslint:base -- --max-warnings 0 \"**/*.{js,ts,tsx,mdx}\"",
+    "lint:eslint-config-prettier": "eslint --print-config .eslintrc | eslint-config-prettier-check",
+    "lint": "yarn lint:eslint",
+    "format:prettier": "yarn prettier:base -- --write \"**/*.{js,ts,tsx,json,md,mdx}\"",
+    "format:eslint": "yarn eslint:base -- --fix \"**/*.{js,ts,tsx,mdx}\"",
+    "format": "yarn format:eslint && yarn format:prettier"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -17,7 +25,36 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "postcss": "^8.3.6",
+    "prettier": "^2.4.1",
     "tailwindcss": "^2.2.7"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "yarn eslint:base -- --fix --max-warnings 0",
+      "yarn prettier:base -- --write"
+    ],
+    "*.{json,md,mdx}": [
+      "yarn prettier:base -- --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   }
 }

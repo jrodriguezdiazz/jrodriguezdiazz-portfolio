@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import Link from "next/link";
-import { useTheme } from "next-themes";
-import { useRouter } from "next/router";
-import userData from "@constants/data";
+import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { useTheme } from 'next-themes';
+import { useRouter } from 'next/router';
+import userData from '@constants/data';
 
 export default function Navbar() {
   const router = useRouter();
@@ -36,13 +36,13 @@ export default function Navbar() {
           <Link href="/about">
             <a
               className={`text-base  ${
-                router.asPath === "/about"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                router.asPath === '/about'
+                  ? 'text-gray-800 font-bold dark:text-gray-400'
+                  : 'text-gray-600 dark:text-gray-300 font-normal '
               }`}
             >
-              About{" "}
-              {router.asPath === "/about" && (
+              About{' '}
+              {router.asPath === '/about' && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -62,13 +62,13 @@ export default function Navbar() {
           <Link href="/projects">
             <a
               className={`text-base  ${
-                router.asPath === "/projects"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                router.asPath === '/projects'
+                  ? 'text-gray-800 font-bold dark:text-gray-400'
+                  : 'text-gray-600 dark:text-gray-300 font-normal '
               }`}
             >
               Projects
-              {router.asPath === "/projects" && (
+              {router.asPath === '/projects' && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -88,13 +88,13 @@ export default function Navbar() {
           <Link href="/experience">
             <a
               className={`text-base  ${
-                router.asPath === "/experience"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                router.asPath === '/experience'
+                  ? 'text-gray-800 font-bold dark:text-gray-400'
+                  : 'text-gray-600 dark:text-gray-300 font-normal '
               }`}
             >
-              Experience{" "}
-              {router.asPath === "/experience" && (
+              Experience{' '}
+              {router.asPath === '/experience' && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -114,13 +114,13 @@ export default function Navbar() {
           <Link href="/contact">
             <a
               className={`text-base  ${
-                router.asPath === "/contact"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                router.asPath === '/contact'
+                  ? 'text-gray-800 font-bold dark:text-gray-400'
+                  : 'text-gray-600 dark:text-gray-300 font-normal '
               }`}
             >
               Contact
-              {router.asPath === "/contact" && (
+              {router.asPath === '/contact' && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -189,7 +189,7 @@ export default function Navbar() {
             aria-label="Toggle Dark Mode"
             type="button"
             className="w-10 h-10 p-3 rounded focus:outline-none"
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
           >
             {mounted && (
               <svg
@@ -199,7 +199,7 @@ export default function Navbar() {
                 stroke="currentColor"
                 className="w-4 h-4 text-yellow-500 dark:text-yellow-500"
               >
-                {theme === "dark" ? (
+                {theme === 'dark' ? (
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"

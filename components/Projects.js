@@ -1,5 +1,5 @@
-import React from "react";
-import userData from "@constants/data";
+import React from 'react';
+import userData from '@constants/data';
 
 export default function Projects() {
   return (
@@ -12,12 +12,13 @@ export default function Projects() {
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
-          {userData.projects.map((proj, idx) => (
+          {userData.projects.map((proj, id) => (
             <ProjectCard
+              key={id}
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
-              number={`${idx + 1}`}
+              number={`${id + 1}`}
             />
           ))}
         </div>
@@ -41,7 +42,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
           {title}
         </h1>
         <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-          {number.length === 1 ? "0" + number : number}
+          {number.length === 1 ? '0' + number : number}
         </h1>
       </div>
     </a>
