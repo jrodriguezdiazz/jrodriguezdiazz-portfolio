@@ -11,13 +11,7 @@ export default function Experience() {
           {/* Experience card */}
           {userData.experience.map((exp, idx) => (
             <div key={idx}>
-              <ExperienceCard
-                title={exp.title}
-                desc={exp.desc}
-                year={exp.year}
-                company={exp.company}
-                companyLink={exp.companyLink}
-              />
+              <ExperienceCard {...exp} />
               {idx === userData.experience.length - 1 ? null : (
                 <div className="divider-container flex flex-col items-center -mt-2">
                   <div className="w-4 h-4 bg-green-500 rounded-full relative z-10">
