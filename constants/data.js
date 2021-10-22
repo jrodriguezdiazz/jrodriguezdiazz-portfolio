@@ -112,6 +112,63 @@ const userData = {
     github: 'https://github.com/jrodriguezdiazz/',
     facebook: 'https://facebook.com/',
   },
+  tech: [
+    {
+      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
+      alt: 'react',
+      href: 'https://reactjs.org/',
+    },
+    {
+      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg',
+      alt: 'nodejs',
+      href: 'https://nodejs.org',
+    },
+    {
+      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg',
+      alt: 'express',
+      href: 'https://expressjs.com',
+    },
+    {
+      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg',
+      alt: 'typescript',
+      href: 'https://www.typescriptlang.org/',
+    },
+    {
+      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg',
+      alt: 'javascript',
+      href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    },
+    {
+      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg',
+      alt: 'html5',
+      href: 'https://www.w3.org/html/',
+    },
+    {
+      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg',
+      alt: 'css3',
+      href: 'https://www.w3schools.com/css/',
+    },
+    {
+      src: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg',
+      alt: 'firebase',
+      href: 'https://firebase.google.com/',
+    },
+    {
+      src: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg',
+      alt: 'git',
+      href: 'https://git-scm.com/',
+    },
+    {
+      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg',
+      alt: 'postgresql',
+      href: 'https://www.postgresql.org',
+    },
+    {
+      src: 'https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg',
+      href: 'https://www.microsoft.com/en-us/sql-server',
+      alt: 'mssql',
+    },
+  ],
 };
 
 export default userData;
