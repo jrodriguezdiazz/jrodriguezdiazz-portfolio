@@ -1,4 +1,3 @@
-import React from 'react';
 import userData from '@constants/data';
 
 export default function AboutMe() {
@@ -66,18 +65,6 @@ export default function AboutMe() {
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
-                <a
-                  href={userData.socialLinks.facebook}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Facebook
-                  </p>
-                </a>
-              </div>
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
@@ -85,7 +72,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300" />
                     Twitter
                   </p>
                 </a>
@@ -97,7 +84,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300" />
                     GitHub
                   </p>
                 </a>
@@ -109,7 +96,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300" />
                     LinkedIn
                   </p>
                 </a>
@@ -121,7 +108,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300" />
                     Instagram
                   </p>
                 </a>
@@ -143,54 +130,112 @@ export default function AboutMe() {
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+              <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                  alt="react"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+              <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                  alt="nodejs"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+              <a href="https://expressjs.com" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+                  alt="express"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+              <a
+                href="https://www.typescriptlang.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                  alt="typescript"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="javascript"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+              <a
+                href="https://www.w3.org/html/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                  alt="html5"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+              <a
+                href="https://www.w3schools.com/css/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                  alt="css3"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+
+              <a
+                href="https://firebase.google.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+                  alt="firebase"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+              <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                <img
+                  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                  alt="git"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+              <a
+                href="https://www.postgresql.org"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+                  alt="postgresql"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
+              <a
+                href="https://www.microsoft.com/en-us/sql-server"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg"
+                  alt="mssql"
+                  className="h-20 w-20 mx-4 my-4"
+                />
+              </a>
             </div>
           </div>
         </div>
