@@ -12,7 +12,9 @@ export default function ContactLink({ href, name, svgPath }) {
         <path d={svgPath} />
       </svg>
       <p className="text-gray-50 font-light text-sm">
-        <a href={href}>{name}</a>
+        <a href={href} target="_blank" rel="noopener noreferrer">
+          {name}
+        </a>
       </p>
     </div>
   );

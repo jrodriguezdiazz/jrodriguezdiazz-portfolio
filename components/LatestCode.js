@@ -17,7 +17,11 @@ export default function LatestCode({ repositories }) {
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center lg:text-left">
             Latest Code
           </h1>
-          <a href={`https://github.com/${userData.githubUsername}`}>
+          <a
+            href={`https://github.com/${userData.githubUsername}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <CustomButton text={'View all'} />
           </a>
         </div>

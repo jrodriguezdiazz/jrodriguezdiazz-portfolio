@@ -17,6 +17,8 @@ export default function AboutMe() {
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {userData.about.currentProject} ✈️
             </a>
@@ -36,6 +38,8 @@ export default function AboutMe() {
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   mail
                 </a>{' '}
@@ -51,7 +55,8 @@ export default function AboutMe() {
                 check my{' '}
                 <a
                   href={userData.resumeUrl}
-                  target="__blank"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   CV

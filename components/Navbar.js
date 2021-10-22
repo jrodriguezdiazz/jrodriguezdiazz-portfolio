@@ -156,6 +156,8 @@ export default function Navbar() {
             </svg>
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={userData.socialLinks.twitter}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
@@ -171,6 +173,8 @@ export default function Navbar() {
             </svg>
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={userData.socialLinks.linkedin}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
