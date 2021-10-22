@@ -1,13 +1,10 @@
 import userData from '@constants/data';
+import Title from '@components/Title';
 
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          About Me.
-        </h1>
-      </div>
+      <Title title={'About Me'} />
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
