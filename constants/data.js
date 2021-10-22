@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
+  githubUsername: "jrodriguezdiazz",
+  name: "Jorge Rodríguez",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  avatarUrl: "/jrodriguezdiazz.png",
+  email: "jrodriguezdiazz@outlook.com",
+  phone: "(809) 752-0141",
+  address: "Espaillat, Dominican Republic.",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -62,9 +62,9 @@ const userData = {
   experience: [
     {
       title: "Software Developer",
-      company: "mroads",
+      company: "Newtech S. R. L.",
       year: "2021",
-      companyLink: "https://mroads.com",
+      companyLink: "https://newtech.software/en/home/",
       desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
     },
     {
@@ -106,10 +106,10 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
+    instagram: "https://instagram.com/jrodriguezdiazz/",
+    twitter: "https://twitter.com/jrodriguezdiazz/",
+    linkedin: "https://linkedin.com/in/jrodriguezdiazz/",
+    github: "https://github.com/jrodriguezdiazz/",
     facebook: "https://facebook.com/",
   },
 };
