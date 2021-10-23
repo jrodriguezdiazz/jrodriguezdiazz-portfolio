@@ -1,10 +1,10 @@
-export default function SocialLink({ link, name }) {
+export default function SocialLink({ href, name }) {
   return (
     <div className="flex flex-row justify-start items-center">
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href={link}
+        href={href}
         className="flex flex-row items-center space-x-4 group"
       >
         <div className="my-4">&rarr;</div>

@@ -69,19 +69,9 @@ export default function AboutMe() {
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              <SocialLink
-                link={userData.socialLinks.twitter}
-                name={'Twitter'}
-              />
-              <SocialLink link={userData.socialLinks.github} name={'GitHub'} />
-              <SocialLink
-                link={userData.socialLinks.instagram}
-                name={'Instagram'}
-              />
-              <SocialLink
-                link={userData.socialLinks.linkedin}
-                name={'LinkedIn'}
-              />
+              {userData.socialLinks.map((data, idx) => (
+                <SocialLink {...data} key={idx} />
+              ))}
             </div>
           </div>
           {/* Text area */}
