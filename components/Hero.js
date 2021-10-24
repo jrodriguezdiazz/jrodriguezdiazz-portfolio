@@ -36,7 +36,11 @@ export default function Hero() {
       {/* Image container */}
       <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
         <div className="w-3/4 ">
-          <img className="max-w-lg shadow-2xl" src={userData.avatarUrl} alt="avatar" />
+          <img
+            className="max-w-lg shadow-2xl"
+            src={userData.avatarUrl}
+            alt="avatar"
+          />
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
               <svg

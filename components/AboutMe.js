@@ -15,7 +15,7 @@ export default function AboutMe() {
           >
             {userData.about.title}. Currently working on{' '}
             <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
+              className="bg-black rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -85,7 +85,10 @@ export default function AboutMe() {
               </p>
             ))}
 
-            <h1 id="tech-stack" className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            <h1
+              id="tech-stack"
+              className="bg-black text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50"
+            >
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">

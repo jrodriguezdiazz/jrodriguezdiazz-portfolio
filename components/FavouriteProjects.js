@@ -6,8 +6,8 @@ export default function FavouriteProjects() {
   return (
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
+        <div className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20">
+          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-black my-20 md:my-0 dark:text-white">
             Favourite Projects
           </h1>
           <Link href="/projects">
@@ -15,7 +15,7 @@ export default function FavouriteProjects() {
               <CustomButton text={'View all'} />
             </a>
           </Link>
-        </header>
+        </div>
 
         {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
@@ -32,7 +32,7 @@ export default function FavouriteProjects() {
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-black rounded-md px-2">
                 Tailwind Master Kit
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
@@ -54,7 +54,7 @@ export default function FavouriteProjects() {
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-black rounded-md px-2">
                 PlaceholderTech
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
@@ -76,7 +76,7 @@ export default function FavouriteProjects() {
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-black rounded-md px-2">
                 Portfolio
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">

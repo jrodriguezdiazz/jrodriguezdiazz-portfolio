@@ -6,6 +6,8 @@ export default function Form() {
         Your Name
       </label>
       <input
+        required
+        autoComplete={'name'}
         type="text"
         className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
         id="name"
@@ -16,6 +18,8 @@ export default function Form() {
         Email
       </label>
       <input
+        required
+        autoComplete={'email'}
         type="text"
         className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
         name="email"
@@ -26,6 +30,7 @@ export default function Form() {
         Message
       </label>
       <textarea
+        required
         rows="4"
         type="text"
         className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
