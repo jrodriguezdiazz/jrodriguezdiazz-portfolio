@@ -18,7 +18,7 @@ export default function LatestCode({ repositories }) {
             Latest Code
           </h1>
           <a
-            href={`https://github.com/${userData.githubUsername}`}
+            href={`https://github.com/${userData.githubUsername}?tab=repositories`}
             target="_blank"
             rel="noopener noreferrer"
           >

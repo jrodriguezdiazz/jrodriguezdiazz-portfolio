@@ -7,7 +7,7 @@ import NavbarItemMobile from '@components/NavbarItemMobile';
 import SocialLinkNavbar from '@components/SocialLinkNavbar';
 
 export default function Navbar() {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme('dark');
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
