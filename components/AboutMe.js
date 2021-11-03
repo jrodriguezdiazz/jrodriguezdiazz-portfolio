@@ -13,15 +13,16 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: '3rem' }}
           >
-            {userData.about.title}. Currently working on{' '}
-            <a
-              className="bg-black rounded-md px-2 py-1 text-white"
-              href={userData.about.currentProjectUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {userData.about.currentProject} ✈️
-            </a>
+            {userData.about.title}
+            {/*Currently working on{' '}*/}
+            {/*<a*/}
+            {/*  className="bg-black rounded-md px-2 py-1 text-white"*/}
+            {/*  href={userData.about.currentProjectUrl}*/}
+            {/*  target="_blank"*/}
+            {/*  rel="noopener noreferrer"*/}
+            {/*>*/}
+            {/*  {userData.about.currentProject} ✈️*/}
+            {/*</a>*/}
           </p>
         </div>
       </div>
@@ -61,7 +62,7 @@ export default function AboutMe() {
                 >
                   CV
                 </a>{' '}
-                and I'd love to work for you.
+                and I'd love to work with you 👨🏾‍💻.
               </p>
             </div>
             {/* Social Links */}
