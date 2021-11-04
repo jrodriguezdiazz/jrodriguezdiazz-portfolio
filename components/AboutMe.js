@@ -90,7 +90,7 @@ export default function AboutMe() {
               id="tech-stack"
               className="bg-black text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50"
             >
-              Tech Stack
+              Main Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               {userData.tech.map((data, idx) => (

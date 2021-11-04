@@ -5,7 +5,7 @@ const userData = {
   avatarUrl: '/jrodriguezdiazz.png',
   email: 'jrodriguezdiazz@outlook.com',
   resumeUrl:
-    'https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing',
+    'https://drive.google.com/file/d/1egCduw_Olj_N1Qe8MM2zAAdZ172DarKG/view?usp=sharing',
   about: {
     title:
       "I'm a Software Engineer with 2 years of experience who likes to be part of development teams.",
@@ -15,52 +15,64 @@ const userData = {
       `I've used: HTML, JavaScript (React, Angular, Node.js, ExpressJS, TypeScript and Webpack), CSS (Bootstrap, Material UI and Tailwind), SQL (PostgreSQL and SQL Server), Control Version (Git, GitHub and GitLab) and Other (Python and PHP)`,
     ],
     current: {
-      project: '',
+      client: '',
       projectUrl: '',
-    }
+    },
   },
   experience: [
     {
-      title: 'Web Software Engineer',
+      title: 'Software Engineer',
       company: 'Newtech S. R. L.',
-      project: 'VecRepair ~ Verizon',
-      projectLink: 'https://www.verizon.com/business/',
+      client: 'Verizon',
+      clientLink: 'https://www.verizon.com/business/',
       year: 'Aug 2021 – Present',
       companyLink: 'https://newtech.software/en/home/',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sem nunc. Etiam id ante turpis. Nam ac bibendum libero, non lobortis ante.',
+      responsibilities: [
+        'Worked on building new Angular components for the customer-facing web app, which improved the time on page for the average user by 1 minute.',
+        'Tested software for bugs and operating speed, fixing bugs to increase efficiency by 18%.',
+      ],
     },
     {
-      title: 'Web Software Engineer',
+      title: 'Software Engineer',
       company: 'Intellisys D. Corp.',
-      project: 'Virtual Library ~ National School of the Judiciary',
-      projectLink: 'https://biblioteca.enj.org',
+      client: 'Escuela Nacional de la Judicatura',
+      clientLink: 'https://biblioteca.enj.org',
       year: 'Nov 2020 – Aug 2021 (10 mos)',
       companyLink: 'https://intellisysdcorp.com/',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sem nunc. Etiam id ante turpis. Nam ac bibendum libero, non lobortis ante.',
+      responsibilities: [
+        'Constructed the logic for a virtual library of Dominican jurisprudence optimized for academic and legal use, which improved the experience of consulting a legal resource by 13%.',
+        'Partnered with a developer to implement RESTFull APIs in Java that allowed the administrative team to keep the platform updated with a 50% increase in speed.',
+      ],
     },
     {
-      title: 'Web Software Engineer',
+      title: 'Software Engineer',
       company: 'Intellisys D. Corp.',
-      project: 'Competitiveness Dashboard ~ National Competitiveness Council',
-      projectLink: 'http://indicadores.competitividad.gob.do',
+      client: 'Consejo Nacional de Competitividad',
+      clientLink: 'http://indicadores.competitividad.gob.do',
       year: 'Jul 2020 – Nov 2020 (5 mos)',
       companyLink: 'https://intellisysdcorp.com/',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sem nunc. Etiam id ante turpis. Nam ac bibendum libero, non lobortis ante.',
+      responsibilities: [
+        'Developed user interfaces focused on telling the competitiveness history of the Dominican Republic with D3JS, HTML5, and CSS3, which improved user satisfaction by 31%.',
+        'Communicated with client managers and analysts about data pipelines that drove efficiency KPIs up by 26%.',
+      ],
     },
     {
-      title: 'Web Software Engineer',
+      title: 'Software Engineer',
       company: 'Intellisys D. Corp.',
-      project: 'Circle of Metrics ~ Intellisys D. Corp.',
-      projectLink: 'https://metricas-239920.web.app',
+      client: 'Circle of Metrics ~ Intellisys D. Corp.',
+      clientLink: 'https://metricas-239920.web.app',
       year: 'Apr 2019 – Jun 2020 (1 yr 3 mos)',
       companyLink: 'https://intellisysdcorp.com/',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sem nunc. Etiam id ante turpis. Nam ac bibendum libero, non lobortis ante.',
+      responsibilities: [
+        'Developed a web application with Node, React, and HTML/CSS that improved the efficiency of the administrative team in managing employee information by 15%.',
+        'Built different microservices using NodeJS and Google Cloud Platform to automate the collection and monitoring of the hour report, which improved by 40%.',
+      ],
     },
     {
       title: 'Internship Software Developer',
       company: 'Intellisys D. Corp.',
       year: 'Apr 2019 – Jun 2019 (3 mos)',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis sem nunc. Etiam id ante turpis. Nam ac bibendum libero, non lobortis ante.',
+      responsibilities: [],
     },
   ],
   contentLink: [
@@ -107,7 +119,7 @@ const userData = {
       href: 'https://twitter.com/jrodriguezdiazz/',
       svgPath:
         'M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z',
-    }
+    },
   ],
   links: [
     {

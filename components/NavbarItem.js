@@ -8,7 +8,7 @@ export default function NavbarItem({ name, href }) {
       <a
         className={`text-base  ${
           router.asPath === href
-            ? 'text-gray-800 font-bold dark:text-gray-400'
+            ? 'text-gray-800 font-bold dark:text-white'
             : 'text-gray-600 dark:text-gray-300 font-normal '
         }`}
       >
