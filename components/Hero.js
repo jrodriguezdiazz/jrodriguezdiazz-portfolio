@@ -4,33 +4,19 @@ import { RainbowHighlight } from './RainbowHighlight';
 import userData from '@constants/data';
 
 export default function Hero() {
-  const colors = ['#b9b9b9', '#777777', '#3b3b3b', '#000000'];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
 
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
-          <RainbowHighlight color={colors[0]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-white dark:text-white my-2">
-              Jorge
-            </h1>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors[1]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-white dark:text-white my-2">
-              Rodríguez
-            </h1>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors[2]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-white dark:text-black my-2">
-              Full-Stack
-            </h1>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors[3]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-white dark:text-black my-2">
-              Developer
-            </h1>
-          </RainbowHighlight>
+          {userData.hero.map(({ color, text }, idx) => (
+            <RainbowHighlight color={color} key={idx}>
+              <h1 className="text-4xl md:text-8xl font-bold text-white dark:text-white my-4">
+                {text}
+              </h1>
+            </RainbowHighlight>
+          ))}
         </RoughNotationGroup>
       </div>
       {/* Image container */}

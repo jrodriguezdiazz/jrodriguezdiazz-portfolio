@@ -19,6 +19,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
+        <meta httpEquiv="content-language" content="en" />
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"

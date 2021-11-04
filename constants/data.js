@@ -238,6 +238,24 @@ const userData = {
       imgUrl: '/devmedium.png',
     },
   ],
+  hero: [
+    {
+      text: 'Jorge',
+      color: '#b9b9b9',
+    },
+    {
+      text: 'Rodríguez',
+      color: '#777777',
+    },
+    {
+      text: 'Full-Stack',
+      color: '#3b3b3b',
+    },
+    {
+      text: 'Developer',
+      color: '#000000',
+    },
+  ],
 };
 
 export default userData;

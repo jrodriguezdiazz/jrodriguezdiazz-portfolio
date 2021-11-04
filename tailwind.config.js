@@ -24,5 +24,6 @@ module.exports = {
     textDecoration: true,
     fontStyle: true,
     display: true,
+    margin: true,
   },
 };

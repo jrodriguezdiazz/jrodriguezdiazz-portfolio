@@ -6,10 +6,10 @@ export default function NavbarItem({ name, href }) {
   return (
     <Link href={href}>
       <a
-        className={`text-base  ${
+        className={`text-base ${
           router.asPath === href
             ? 'text-gray-800 font-bold dark:text-white'
-            : 'text-gray-600 dark:text-gray-300 font-normal '
+            : 'text-gray-600 dark:text-gray-300 font-normal'
         }`}
       >
         {name}
