@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: 'Jorge Rodríguez - Full-Stack Developer',
     description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
-    image: '/avatar.png',
+    image: '/jrodriguezdiazz.png',
     type: 'website',
     ...customMeta,
   };

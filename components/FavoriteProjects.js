@@ -2,13 +2,13 @@ import React from 'react';
 import Link from 'next/link';
 import CustomButton from '@components/CustomButton';
 
-export default function FavouriteProjects() {
+export default function FavoriteProjects() {
   return (
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20">
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-black my-20 md:my-0 dark:text-white">
-            Favourite Projects
+            Favorite Projects
           </h1>
           <Link href="/projects">
             <a>

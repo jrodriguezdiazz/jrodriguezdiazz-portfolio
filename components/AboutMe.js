@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import userData from '@constants/data';
 import Title from '@components/Title';
 import Tech from '@components/Tech';
@@ -36,14 +37,11 @@ export default function AboutMe() {
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort help / enquiry, shoot a{' '}
-                <a
-                  href={`mailto:${userData.email}`}
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  mail
-                </a>{' '}
+                <Link href="/contact#contact">
+                  <a className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300">
+                    mail
+                  </a>
+                </Link>{' '}
                 and I'll get back. I swear.
               </p>
             </div>

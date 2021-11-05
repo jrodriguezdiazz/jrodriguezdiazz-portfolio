@@ -25,5 +25,6 @@ module.exports = {
     fontStyle: true,
     display: true,
     margin: true,
+    width: true,
   },
 };
