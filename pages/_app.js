@@ -4,13 +4,15 @@ import Script from 'next/script';
 import { ThemeProvider } from 'next-themes';
 import * as gtag from '../lib/gtag';
 import '../styles/globals.css';
+import { NEXT_PUBLIC_GA_ID } from '@lib/getEnv';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = url => {
-      gtag.pageview(url);
+      gtag.pageView(url);
     };
+
     router.events.on('routeChangeComplete', handleRouteChange);
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange);
@@ -21,7 +23,7 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider defaultTheme="dark" attribute="class">
       <Script
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.NEXT_PUBLIC_GA_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${NEXT_PUBLIC_GA_ID}`}
       />
       <Script
         id="gtag-init"
@@ -31,7 +33,7 @@ function MyApp({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${gtag.NEXT_PUBLIC_GA_ID}', {
+            gtag('config', '${NEXT_PUBLIC_GA_ID}', {
               page_path: window.location.pathname,
             });
           `,
