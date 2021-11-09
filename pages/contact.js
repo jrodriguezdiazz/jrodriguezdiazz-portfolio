@@ -1,4 +1,3 @@
-import React from 'react';
 import ContainerBlock from '../components/ContainerBlock';
 import Contact from '../components/Contact';
 

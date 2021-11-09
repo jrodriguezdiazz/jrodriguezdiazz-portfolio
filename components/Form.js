@@ -39,7 +39,7 @@ export default function Form() {
       />
       <button
         type="submit"
-        className="bg-blue-500 rounded-md w-2/5 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+        className="bg-gray-500 hover:bg-gray-700 transition duration-2000 rounded-md w-2/5 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold rounded-full inline-block uppercase shadow-md"
       >
         Send Message
       </button>

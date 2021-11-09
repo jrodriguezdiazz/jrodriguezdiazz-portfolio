@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section>
       <Title title={'Contact'} />
-      <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+      <div className="relative z-10 rounded-md shadow-md bg-[#777777] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
           <div className="md:ml-4">
             <header className="">
