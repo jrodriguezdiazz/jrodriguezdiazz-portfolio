@@ -35,7 +35,7 @@ I use GitHub issues to track public bugs. Report a bug by [opening a new issue](
 
 [This is an example](http://stackoverflow.com/q/12488905/180626) of a bug report I wrote, and I think it's not a bad model. Here's [another example from Craig Hockenberry](http://www.openradar.me/11905408), an app developer whom I greatly respect.
 
-### **_Important note_**: 
+### **_Important note_**:
 
 > _Since this project is a fork, GitHub does not allow opening issue. Because of this, the links provided redirect to the original repository._
 
@@ -43,8 +43,8 @@ I use GitHub issues to track public bugs. Report a bug by [opening a new issue](
 
 - A quick summary and/or background
 - Steps to reproduce
-    - Be specific!
-    - Give sample code if you can. [My stackoverflow question](http://stackoverflow.com/q/12488905/180626) includes sample code that _anyone_ with a base R setup can run to reproduce what I was seeing
+  - Be specific!
+  - Give sample code if you can. [My stackoverflow question](http://stackoverflow.com/q/12488905/180626) includes sample code that _anyone_ with a base R setup can run to reproduce what I was seeing
 - What you expected would happen
 - What actually happens
 - Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
