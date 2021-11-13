@@ -1,5 +1,4 @@
 import ContainerBlock from '../components/ContainerBlock';
-import FavoriteProjects from '@components/FavoriteProjects';
 import LatestCode from '../components/LatestCode';
 import Hero from '../components/Hero';
 import getLatestRepos from '@lib/getLatestRepos';
@@ -9,7 +8,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock title="Jorge Rodríguez ~ Developer">
       <Hero />
-      <FavoriteProjects />
+      {/*<FavoriteProjects />*/}
       <LatestCode repositories={repositories} />
     </ContainerBlock>
   );
