@@ -196,7 +196,17 @@ const userData = {
       alt: 'mssql',
     },
   ],
-  projects: [],
+  projects: [
+    {
+      title: 'Book Search Engine',
+      link: 'https://book-search-engine-black.vercel.app',
+      imgUrl: '/book-search-engine.png',
+      repo: 'https://github.com/jrodriguezdiazz/book-search-engine',
+      description:
+        '🔍 📚 An application that will allow users to search for books by entering a query (Title, Author, etc). Display the resulting books in a list on the page with all the corresponding data.',
+      stack: ['React', 'Material-UI', 'TypeScript', 'Google Book API'],
+    },
+  ],
   hero: [
     {
       text: 'Jorge',

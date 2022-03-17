@@ -11,14 +11,17 @@ export default function Projects() {
 
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         {userData.projects.length ? (
-          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
+          <div className="max-w-6xl mx-auto py-20 pb-40">
             {userData.projects.map((proj, id) => (
               <ProjectCard
-                key={id}
-                title={proj.title}
-                link={proj.link}
+                description={proj.description}
                 imgUrl={proj.imgUrl}
+                key={id}
+                link={proj.link}
                 number={`${id + 1}`}
+                repo={proj.repo}
+                stack={proj.stack}
+                title={proj.title}
               />
             ))}
           </div>
