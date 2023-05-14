@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function ContactLink({ href, name, svgPath }) {
   return (
     <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4 mt-8">
@@ -12,9 +14,9 @@ export default function ContactLink({ href, name, svgPath }) {
         <path d={svgPath} />
       </svg>
       <p className="text-gray-50 font-light text-sm">
-        <a href={href} target="_blank" rel="noopener noreferrer">
+        <Link href={href} target="_blank" rel="noopener noreferrer">
           {name}
-        </a>
+        </Link>
       </p>
     </div>
   );

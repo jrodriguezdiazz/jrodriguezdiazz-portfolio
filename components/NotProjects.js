@@ -1,5 +1,6 @@
 import userData from '@constants/data';
 import CustomButton from '@components/CustomButton';
+import Link from 'next/link';
 
 export default function NotProjects() {
   return (
@@ -13,13 +14,13 @@ export default function NotProjects() {
           </span>
         </h2>
         <div className="mb-5 flex justify-around">
-          <a
+          <Link
             href={`https://github.com/${userData.githubUsername}?tab=repositories`}
             target="_blank"
             rel="noopener noreferrer"
           >
             <CustomButton text={'View Repositories'} />
-          </a>
+          </Link>
         </div>
         <div className="flex justify-around">
           <img

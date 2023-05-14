@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Title({ title }) {
   const id = `${title.toLowerCase().replace(' ', '_')}`;
   return (
@@ -6,7 +8,7 @@ export default function Title({ title }) {
         id={id}
         className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left"
       >
-        <a href={`#${id}`}>{title}</a>
+        <Link href={`#${id}`}>{title}</Link>
       </h1>
     </div>
   );

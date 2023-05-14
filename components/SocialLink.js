@@ -1,7 +1,9 @@
+import Link from 'next/link';
+
 export default function SocialLink({ href, name }) {
   return (
     <div className="flex flex-row justify-start items-center">
-      <a
+      <Link
         target="_blank"
         rel="noopener noreferrer"
         href={href}
@@ -12,7 +14,7 @@ export default function SocialLink({ href, name }) {
           <span className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300" />
           {name}
         </p>
-      </a>
+      </Link>
     </div>
   );
 }

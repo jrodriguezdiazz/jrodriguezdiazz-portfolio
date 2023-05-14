@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ProjectImage({
   link,
@@ -8,7 +9,7 @@ export default function ProjectImage({
   number,
 }) {
   return (
-    <a target="_blank" rel="noopener noreferrer" href={link}>
+    <Link target="_blank" rel="noopener noreferrer" href={link}>
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <Image
@@ -25,6 +26,6 @@ export default function ProjectImage({
           {number.length === 1 ? '0' + number : number}
         </h1>
       </div>
-    </a>
+    </Link>
   );
 }
