@@ -11,16 +11,16 @@ export default function FavoriteProjects() {
             Favorite Projects
           </h1>
           <Link href="/projects">
-            <a>
+            <p>
               <CustomButton text={'View all'} />
-            </a>
+            </p>
           </Link>
         </div>
 
         {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
-          <a
+          <Link
             href="https://tailwindmasterkit.com"
             className="w-full block col-span-3 shadow-2xl"
             target="_blank"
@@ -39,9 +39,9 @@ export default function FavoriteProjects() {
                 01
               </h1>
             </div>
-          </a>
+          </Link>
           {/* Single card */}
-          <a
+          <Link
             href="https://placeholdertech.in"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
             target="_blank"
@@ -61,9 +61,9 @@ export default function FavoriteProjects() {
                 02
               </h1>
             </div>
-          </a>
+          </Link>
           {/* Single card */}
-          <a
+          <Link
             href="https://manuarora.in"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
             target="_blank"
@@ -83,7 +83,7 @@ export default function FavoriteProjects() {
                 03
               </h1>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

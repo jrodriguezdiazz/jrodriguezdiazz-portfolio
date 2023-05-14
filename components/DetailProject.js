@@ -4,13 +4,13 @@ const Item = ({ link, text }) => (
   <p className="mt-3 text-base font-semibold text-gray-700 dark:text-gray-200">
     {text}:{' '}
     <Link href={link}>
-      <a
+      <p
         target="_blank"
         rel="noreferrer"
         className="text-base light font-normal italic"
       >
         {link}
-      </a>
+      </p>
     </Link>
   </p>
 );

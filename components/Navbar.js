@@ -19,14 +19,14 @@ export default function Navbar() {
       <div className="flex  md:flex-row justify-between items-center">
         <div className="flex flex-col">
           <Link href="/">
-            <a>
+            <div>
               <h1 className="font-semibold text-xl dark:text-gray-100">
                 {userData.name}
               </h1>
               <p className="text-base font-light text-gray-500 dark:text-gray-300">
                 {userData.designation}
               </p>
-            </a>
+            </div>
           </Link>
         </div>
 

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import userData from '@constants/data';
 import GithubRepoCard from '@components/GithubRepoCard';
 import CustomButton from '@components/CustomButton';
+import Link from 'next/link';
 
 export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState([]);
@@ -17,13 +18,13 @@ export default function LatestCode({ repositories }) {
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-black my-20 dark:text-white">
             Latest Code
           </h1>
-          <a
+          <Link
             href={`https://github.com/${userData.githubUsername}?tab=repositories`}
             target="_blank"
             rel="noopener noreferrer"
           >
             <CustomButton text={'View all'} />
-          </a>
+          </Link>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:-mt-10 gap-y-20">

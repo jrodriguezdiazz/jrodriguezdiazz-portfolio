@@ -5,7 +5,7 @@ export default function NavbarItem({ name, href }) {
   const router = useRouter();
   return (
     <Link href={href}>
-      <a
+      <p
         className={`text-base ${
           router.asPath === href
             ? 'text-gray-800 font-bold dark:text-white'
@@ -28,7 +28,7 @@ export default function NavbarItem({ name, href }) {
             />
           </svg>
         )}
-      </a>
+      </p>
     </Link>
   );
 }

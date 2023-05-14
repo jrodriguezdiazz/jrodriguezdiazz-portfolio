@@ -38,9 +38,9 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort help / enquiry, shoot a{' '}
                 <Link href="/contact#contact">
-                  <a className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300">
+                  <p className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300">
                     mail
-                  </a>
+                  </p>
                 </Link>{' '}
                 and I'll get back. I swear.
               </p>
@@ -52,14 +52,14 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 I'm looking for a job currently, If you see me as a good fit,
                 check my{' '}
-                <a
+                <Link
                   href={userData.resumeUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   CV
-                </a>{' '}
+                </Link>{' '}
                 and I'd love to work with you 👨🏾‍💻.
               </p>
             </div>

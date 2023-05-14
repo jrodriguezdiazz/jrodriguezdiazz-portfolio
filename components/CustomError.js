@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function CustomError({ svgPath, title, description }) {
   return (
     <section className="bg-white dark:bg-gray-800">
@@ -19,12 +21,12 @@ export default function CustomError({ svgPath, title, description }) {
             <p className="mt-6 uppercase text-sm lg:text-base text-gray-900 dark:text-white">
               {description}
             </p>
-            <a
+            <Link
               href="/"
               className="mt-6 bg-gray-500 hover:bg-gray-700 transition duration-2000 text-white font-light py-4 px-6 rounded-full inline-block uppercase shadow-md"
             >
               Back To Homepage
-            </a>
+            </Link>
           </div>
         </section>
       </div>

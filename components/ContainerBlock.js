@@ -8,7 +8,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: 'Jorge Rodríguez - Full-Stack Developer',
+    title: 'Jorge Rodríguez Díaz - Software Engineer',
     description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
     image: '/jrodriguezdiazz.png',
     type: 'website',

@@ -1,6 +1,8 @@
+import Link from 'next/link';
+
 export default function SocialLinkNavbar({ href, svgPath }) {
   return (
-    <a
+    <Link
       target="_blank"
       rel="noopener noreferrer"
       href={href}
@@ -16,6 +18,6 @@ export default function SocialLinkNavbar({ href, svgPath }) {
       >
         <path d={svgPath} />
       </svg>
-    </a>
+    </Link>
   );
 }
