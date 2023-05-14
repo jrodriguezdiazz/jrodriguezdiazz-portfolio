@@ -36,11 +36,13 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot a{" "}
-                <Link href="/contact#contact">
-                  <p className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300">
-                    mail
-                  </p>
+                For any sort help / enquiry, shoot a
+                <Link
+                  href="/contact#contact"
+                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                >
+                  {" "}
+                  mail
                 </Link>{" "}
                 and I'll get back. I swear.
               </p>
@@ -50,8 +52,7 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
-                check my{" "}
+                If you see me as a good fit, check my{" "}
                 <Link
                   href={userData.resumeUrl}
                   target="_blank"

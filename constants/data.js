@@ -1,18 +1,17 @@
 const userData = {
   githubUsername: "jrodriguezdiazz",
   name: "Jorge Rodríguez Díaz",
-  designation: "Software Engineer",
+  designation: "Senior Software Engineer",
   avatarUrl: "/jrodriguezdiazz.png",
   email: "jrodriguezdiazz@outlook.com",
   resumeUrl:
-    "https://drive.google.com/file/d/1egCduw_Olj_N1Qe8MM2zAAdZ172DarKG/view?usp=sharing",
+    "https://drive.google.com/file/d/1tCrVyIEPLzz1jApSouxJnYfoKNeXfDYb/view?usp=sharing",
   about: {
     title:
-      "I'm a Software Developer with 2 years of experience who likes to be part of development teams.",
+      "Jorge is an experienced software engineer with 4 years of industry experience developing web applications.",
     description: [
-      `I can collaborate and do my bit to reach feasible solutions to problems that clients have that seem to have no answer by implementing cutting-edge and scalable technologies.`,
-      `The qualities that I pride myself most on having are the ability to learn from the mistakes I have made in the past and the ability to apply constant improvement (#NetKaizen) and finally the rapid adaptation and management of changing circumstances.`,
-      `I've used: HTML, JavaScript (React, Angular, Node.js, ExpressJS, TypeScript and Webpack), CSS (Bootstrap, Material UI and Tailwind), SQL (PostgreSQL and SQL Server), Control Version (Git, GitHub and GitLab) and Other (Python and PHP)`,
+      "His strong technical skills include expertise in modern web technologies such as React, Angular, NodeJS, TypeScript, HTML, CSS, and SQL. He has an excellent track record of delivering projects on time and within budget and is highly motivated and creative in his approach to solving challenging problems.",
+      "Jorge is highly organized and detail-oriented, he's a team player who is eager to learn and always willing to help others. With his vast experience and skill set, Jorge is an invaluable asset to any web development team.",
     ],
     current: {
       client: "EPAM Systems",
@@ -76,7 +75,7 @@ const userData = {
       ],
     },
     {
-      title: "Software Developer",
+      title: "Senior Software Developer",
       company: "IntelliSys D. Corp.",
       client: "Circle of Metrics ~ IntelliSys D. Corp.",
       clientLink: "https://metricas-239920.web.app",
@@ -92,7 +91,8 @@ const userData = {
     {
       title: "Internship Software Developer",
       company: "IntelliSys D. Corp.",
-      year: "Apr 2019 – Jun 2019 (3 mos)",
+      startDate: "2019-04-01",
+      endDate: "2019-06-01",
       responsibilities: [],
     },
   ],
@@ -207,6 +207,40 @@ const userData = {
   ],
   projects: [
     {
+      title: "Flixo",
+      link: "https://github.com/jrodriguezdiazz/Flixo",
+      imgUrl: "/flixo.png",
+      repo: "https://github.com/jrodriguezdiazz/Flixo",
+      description:
+        "🤳🏾 Made to share your best moments and smiles with your friends.",
+      stack: ["React Native", "Firebase", "Firebase", "Expo"],
+      isPrivate: false,
+    },
+    {
+      title: "Belphoebe",
+      link: "https://t.me/BelphoebeBot",
+      imgUrl: "/belphoebe.png",
+      repo: "https://github.com/jrodriguezdiazz/Belphoebe",
+      description:
+        "Belphoebe is the virtual assistant of LICEM-Retro, her goal is to help you rent films on our platform, where you will find a great diversity of films 💁🏻‍♀️",
+      stack: [
+        "Python",
+        "K Nearest Neighbours Algorithm",
+        "SQL Server",
+        "Telegram API",
+      ],
+      isPrivate: true,
+    },
+    {
+      title: "School Administrator",
+      link: "https://school-administrator-320621.web.app/",
+      imgUrl: "/school-administrator.png",
+      repo: "https://github.com/jrodriguezdiazz/school-administrator",
+      description:
+        "This platform is an example of a system that will allow managing students of a school",
+      stack: ["Node JS", "Firebase", "SQL Server", "Angular"],
+    },
+    {
       title: "Book Search Engine",
       link: "https://book-search-engine-black.vercel.app",
       imgUrl: "/book-search-engine.png",
@@ -214,6 +248,7 @@ const userData = {
       description:
         "🔍 📚 An application that will allow users to search for books by entering a query (Title, Author, etc). Display the resulting books in a list on the page with all the corresponding data.",
       stack: ["React", "Material-UI", "TypeScript", "Google Book API"],
+      isPrivate: false,
     },
   ],
   hero: [
@@ -226,7 +261,7 @@ const userData = {
       color: "#777777",
     },
     {
-      text: "Software",
+      text: "Sr. Software",
       color: "#3b3b3b",
     },
     {

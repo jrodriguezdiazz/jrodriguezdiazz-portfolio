@@ -1,15 +1,10 @@
 import DetailProject from "@components/DetailProject";
 import ProjectImage from "@components/ProjectImage";
 
-export default function ProjectCard({
-  description,
-  imgUrl,
-  link,
-  number,
-  repo,
-  stack,
-  title,
-}) {
+export default function ProjectCard(props) {
+  const { description, imgUrl, link, number, repo, stack, title, isPrivate } =
+    props;
+
   const isOdd = number % 2 !== 0;
   const projectImageComponent = (
     <ProjectImage
@@ -27,6 +22,7 @@ export default function ProjectCard({
       link={link}
       repo={repo}
       stack={stack}
+      isPrivate={isPrivate}
     />
   );
   const [firstComponent, secondComponent] = isOdd
