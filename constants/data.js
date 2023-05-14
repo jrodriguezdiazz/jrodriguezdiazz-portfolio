@@ -32,6 +32,15 @@ const userData = {
         "Successfully implemented lazy loading technology for ads, significantly increasing ad viewability and engagement, and improving CPM (Cost Per Thousand Impressions).",
         "Collaborated with cross-functional teams including developers, product managers, and third-party vendors to ensure a seamless transition to the new ad-serving mechanism (Ad Browser Configuration Tool (ABT)), minimizing disruption to the website's revenue stream.",
       ],
+      stack: [
+        "Next.js",
+        "Redux.js",
+        "Google Ads",
+        "Node.js",
+        "React.js",
+        "JavaScript",
+        "Jest",
+      ],
     },
     {
       title: "Software Developer",
@@ -45,6 +54,16 @@ const userData = {
       responsibilities: [
         "Redesigned and improved the performance of Verizon's fault reporting system by 18% using Angular.\n",
         "Removed +2000 lines of repeated TypeScript code using the DRY principle.\n",
+      ],
+      stack: [
+        "Angular",
+        "Gitlab",
+        "Node.js",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "HTML",
+        "TypeScript",
       ],
     },
     {
@@ -60,6 +79,16 @@ const userData = {
         "Mentored 4 new appendices, front-end developers, in expanding web development skillset.",
         "Built a virtual library of Dominican jurisprudence optimized for academic and legal use which improved the experience of legal consultation by 13%.",
       ],
+      stack: [
+        "dSPACE",
+        "SASS",
+        "Bootstrap",
+        "Microsoft SQL Server",
+        "JavaScript",
+        "Git",
+        "GitHub",
+        "HTML",
+      ],
     },
     {
       title: "Software Developer",
@@ -73,6 +102,7 @@ const userData = {
       responsibilities: [
         "Developed user interfaces focused on telling the competitiveness history of the Dominican Republic with D3JS, HTML, and CSS, which improved user satisfaction by 31%.",
       ],
+      stack: ["jQuery", "CSS", "JavaScript", "Git", "GitHub", "D3.js", "HTM"],
     },
     {
       title: "Senior Software Developer",
@@ -87,6 +117,23 @@ const userData = {
         "Automated the internal processes of data collection and dashboard generation for the IntelliSys management team, using different micro-services created with NodeJS and Google Cloud Platform.",
         "Developed an application web with Node, React, and HTML/CSS that improved the efficiency of the administrative team in managing employee information by 15%.",
       ],
+      stack: [
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "Material-UI",
+        "Flask",
+        "Looker Studio",
+        "CSS",
+        "Python",
+        "Git",
+        "GitHub",
+        "PostgresSQL",
+        "Jest",
+        "Firebase",
+        "HTML",
+        "Google Cloud Console",
+      ],
     },
     {
       title: "Internship Software Developer",
@@ -94,6 +141,7 @@ const userData = {
       startDate: "2019-04-01",
       endDate: "2019-06-01",
       responsibilities: [],
+      stack: ["React Native", "Firebase", "Firebase", "Expo"],
     },
   ],
   contentLink: [

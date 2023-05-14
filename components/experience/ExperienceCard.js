@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import DetailsExperience from "@components/experience/DetailsExperience";
 import Responsibilities from "@components/experience/Responsibilities";
-import { calculateProjectDuration } from "@lib/utils";
+import { calculateProjectDuration, listFormat } from "@lib/utils";
 
 export default function ExperienceCard(props) {
   const {
@@ -13,7 +13,9 @@ export default function ExperienceCard(props) {
     responsibilities,
     startDate,
     endDate,
+    stack,
   } = props;
+  console.log(stack);
   const duration = calculateProjectDuration(startDate, endDate);
   return (
     <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10">
@@ -29,6 +31,10 @@ export default function ExperienceCard(props) {
         name={client}
       />
       <DetailsExperience detailName={"Time Lapse"} name={duration} />
+      <DetailsExperience
+        detailName={"Stack"}
+        name={listFormat.format(stack.sort())}
+      />
       {!!responsibilities.length && (
         <Fragment>
           <h3 className="font-semibold text-gray-500 dark:text-gray-300">
