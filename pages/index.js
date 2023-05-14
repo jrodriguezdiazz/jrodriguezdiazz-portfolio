@@ -6,7 +6,7 @@ import userData from "@constants/data";
 
 export default function Home({ repositories }) {
   return (
-    <ContainerBlock title="Jorge Rodríguez ~ Developer">
+    <ContainerBlock title='Jorge Rodríguez ~ Senior Software Developer'>
       <Hero />
       {/*<FavoriteProjects />*/}
       <LatestCode repositories={repositories} />
@@ -16,7 +16,7 @@ export default function Home({ repositories }) {
 
 export const getServerSideProps = async () => {
   const token = process.env.GITHUB_AUTH_TOKEN;
-
+  
   const repositories = await getLatestRepos(userData, token);
   return {
     props: {
