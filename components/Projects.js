@@ -13,16 +13,7 @@ export default function Projects() {
         {userData.projects.length ? (
           <div className="max-w-6xl mx-auto py-20 pb-40">
             {userData.projects.map((proj, id) => (
-              <ProjectCard
-                description={proj.description}
-                imgUrl={proj.imgUrl}
-                key={id}
-                link={proj.link}
-                number={`${id + 1}`}
-                repo={proj.repo}
-                stack={proj.stack}
-                title={proj.title}
-              />
+              <ProjectCard key={id} number={`${id + 1}`} {...proj} />
             ))}
           </div>
         ) : (

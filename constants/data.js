@@ -207,6 +207,40 @@ const userData = {
   ],
   projects: [
     {
+      title: "Flixo",
+      link: "https://github.com/jrodriguezdiazz/Flixo",
+      imgUrl: "/flixo.png",
+      repo: "https://github.com/jrodriguezdiazz/Flixo",
+      description:
+        "🤳🏾 Made to share your best moments and smiles with your friends.",
+      stack: ["React Native", "Firebase", "Firebase", "Expo"],
+      isPrivate: false,
+    },
+    {
+      title: "Belphoebe",
+      link: "https://t.me/BelphoebeBot",
+      imgUrl: "/belphoebe.png",
+      repo: "https://github.com/jrodriguezdiazz/Belphoebe",
+      description:
+        "Belphoebe is the virtual assistant of LICEM-Retro, her goal is to help you rent films on our platform, where you will find a great diversity of films 💁🏻‍♀️",
+      stack: [
+        "Python",
+        "K Nearest Neighbours Algorithm",
+        "SQL Server",
+        "Telegram API",
+      ],
+      isPrivate: true,
+    },
+    {
+      title: "School Administrator",
+      link: "https://school-administrator-320621.web.app/",
+      imgUrl: "/school-administrator.png",
+      repo: "https://github.com/jrodriguezdiazz/school-administrator",
+      description:
+        "This platform is an example of a system that will allow managing students of a school",
+      stack: ["Node JS", "Firebase", "SQL Server", "Angular"],
+    },
+    {
       title: "Book Search Engine",
       link: "https://book-search-engine-black.vercel.app",
       imgUrl: "/book-search-engine.png",
@@ -214,6 +248,7 @@ const userData = {
       description:
         "🔍 📚 An application that will allow users to search for books by entering a query (Title, Author, etc). Display the resulting books in a list on the page with all the corresponding data.",
       stack: ["React", "Material-UI", "TypeScript", "Google Book API"],
+      isPrivate: false,
     },
   ],
   hero: [
