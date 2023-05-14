@@ -1,12 +1,12 @@
-import userData from '@constants/data';
-import ProjectCard from '@components/ProjectCard';
-import Title from '@components/Title';
-import NotProjects from '@components/NotProjects';
+import userData from "@constants/data";
+import ProjectCard from "@components/ProjectCard";
+import Title from "@components/Title";
+import NotProjects from "@components/NotProjects";
 
 export default function Projects() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <Title title={'Projects'} />
+      <Title title={"Projects"} />
       {/* Grid starts here */}
 
       <div className="bg-[#F1F1F1] dark:bg-gray-900">

@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import Link from 'next/link';
-import { useTheme } from 'next-themes';
-import userData from '@constants/data';
-import NavbarItem from '@components/NavbarItem';
-import NavbarItemMobile from '@components/NavbarItemMobile';
-import SocialLinkNavbar from '@components/SocialLinkNavbar';
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
+import { useTheme } from "next-themes";
+import userData from "@constants/data";
+import NavbarItem from "@components/NavbarItem";
+import NavbarItemMobile from "@components/NavbarItemMobile";
+import SocialLinkNavbar from "@components/SocialLinkNavbar";
 
 export default function Navbar() {
-  const { theme, setTheme } = useTheme('dark');
+  const { theme, setTheme } = useTheme("dark");
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -44,7 +44,7 @@ export default function Navbar() {
             aria-label="Toggle Dark Mode"
             type="button"
             className="w-5 h-10 p-3 rounded focus:outline-none"
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           >
             {mounted && (
               <svg
@@ -54,7 +54,7 @@ export default function Navbar() {
                 stroke="currentColor"
                 className="w-4 h-4 text-yellow-500 dark:text-yellow-500"
               >
-                {theme === 'dark' ? (
+                {theme === "dark" ? (
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"

@@ -1,18 +1,18 @@
-import Link from 'next/link';
-import userData from '@constants/data';
-import Title from '@components/Title';
-import Tech from '@components/Tech';
-import SocialLink from '@components/SocialLink';
+import Link from "next/link";
+import userData from "@constants/data";
+import Title from "@components/Title";
+import Tech from "@components/Tech";
+import SocialLink from "@components/SocialLink";
 
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <Title title={'About Me'} />
+      <Title title={"About Me"} />
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
-            style={{ lineHeight: '3rem' }}
+            style={{ lineHeight: "3rem" }}
           >
             {userData.about.title}
             {/*Currently working on{' '}*/}
@@ -36,12 +36,12 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot a{' '}
+                For any sort help / enquiry, shoot a{" "}
                 <Link href="/contact#contact">
                   <p className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300">
                     mail
                   </p>
-                </Link>{' '}
+                </Link>{" "}
                 and I'll get back. I swear.
               </p>
             </div>
@@ -51,7 +51,7 @@ export default function AboutMe() {
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 I'm looking for a job currently, If you see me as a good fit,
-                check my{' '}
+                check my{" "}
                 <Link
                   href={userData.resumeUrl}
                   target="_blank"
@@ -59,7 +59,7 @@ export default function AboutMe() {
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   CV
-                </Link>{' '}
+                </Link>{" "}
                 and I'd love to work with you 👨🏾‍💻.
               </p>
             </div>

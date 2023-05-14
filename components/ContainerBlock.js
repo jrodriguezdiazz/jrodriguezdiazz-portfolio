@@ -1,17 +1,17 @@
-import React from 'react';
-import Head from 'next/head';
-import { useRouter } from 'next/router';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import React from "react";
+import Head from "next/head";
+import { useRouter } from "next/router";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: 'Jorge Rodríguez Díaz - Software Engineer',
+    title: "Jorge Rodríguez Díaz - Senior Software Engineer",
     description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
-    image: '/jrodriguezdiazz.png',
-    type: 'website',
+    image: "/jrodriguezdiazz.png",
+    type: "website",
     ...customMeta,
   };
   return (

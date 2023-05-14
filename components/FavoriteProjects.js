@@ -1,6 +1,6 @@
-import React from 'react';
-import Link from 'next/link';
-import CustomButton from '@components/CustomButton';
+import React from "react";
+import Link from "next/link";
+import CustomButton from "@components/CustomButton";
 
 export default function FavoriteProjects() {
   return (
@@ -12,7 +12,7 @@ export default function FavoriteProjects() {
           </h1>
           <Link href="/projects">
             <p>
-              <CustomButton text={'View all'} />
+              <CustomButton text={"View all"} />
             </p>
           </Link>
         </div>

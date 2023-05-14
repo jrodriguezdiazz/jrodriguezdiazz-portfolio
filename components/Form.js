@@ -1,11 +1,11 @@
-import { useRef } from 'react';
-import emailJs from 'emailjs-com';
+import { useRef } from "react";
+import emailJs from "emailjs-com";
 import {
   NEXT_PUBLIC_SERVICE_ID,
   NEXT_PUBLIC_USER_ID,
   NEXT_PUBLIC_TEMPLATE_ID,
-} from '@lib/getEnv';
-import { alertMessage } from '@lib/alertMessage';
+} from "@lib/getEnv";
+import { alertMessage } from "@lib/alertMessage";
 
 export default function Form() {
   const form = useRef();
@@ -21,22 +21,22 @@ export default function Form() {
       );
       if (emailJSResponse.status === 200) {
         await alertMessage({
-          icon: 'success',
-          title: 'The email has been sent successfully',
+          icon: "success",
+          title: "The email has been sent successfully",
         });
       } else {
         await alertMessage({
-          icon: 'error',
-          title: 'Oops...',
-          text: 'Something went wrong! Try to communicate with me on LinkedIn',
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong! Try to communicate with me on LinkedIn",
         });
       }
       event.target.reset();
     } catch (error) {
       await alertMessage({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Something went wrong! Try to communicate with me on LinkedIn',
+        icon: "error",
+        title: "Oops...",
+        text: "Something went wrong! Try to communicate with me on LinkedIn",
       });
     }
   };
@@ -48,7 +48,7 @@ export default function Form() {
       onSubmit={sendEmail}
     >
       <label htmlFor="subject" className="text-sm text-gray-600 mx-4 mt-4">
-        {' '}
+        {" "}
         Subject
       </label>
       <input
@@ -62,12 +62,12 @@ export default function Form() {
         maxLength="30"
       />
       <label htmlFor="name" className="text-sm text-gray-600 mx-4 mt-4">
-        {' '}
+        {" "}
         Your Name
       </label>
       <input
         required
-        autoComplete={'name'}
+        autoComplete={"name"}
         type="text"
         className="bg-white border-2 border-gray-200 rounded py-2 mt-2 px-1 mx-4 text-gray-700 focus:outline-none focus:border-grey-500"
         id="name"
@@ -83,7 +83,7 @@ export default function Form() {
       </label>
       <input
         required
-        autoComplete={'email'}
+        autoComplete={"email"}
         type="text"
         className="bg-white border-2 border-gray-200 rounded py-2 mt-2 px-1 mx-4 text-gray-700 focus:outline-none focus:border-grey-500"
         name="email"

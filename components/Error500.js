@@ -1,4 +1,4 @@
-import CustomError from '@components/CustomError';
+import CustomError from "@components/CustomError";
 
 export default function Error500() {
   return (

@@ -1,10 +1,10 @@
-import Title from '@components/Title';
-import Form from '@components/Form';
+import Title from "@components/Title";
+import Form from "@components/Form";
 
 export default function Contact() {
   return (
     <section>
-      <Title title={'Contact'} />
+      <Title title={"Contact"} />
       <div className="relative z-10 rounded-md shadow-md bg-[#777777] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
           <div className="md:ml-4">

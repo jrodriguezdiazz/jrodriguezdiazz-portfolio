@@ -1,5 +1,5 @@
-import ContainerBlock from '../components/ContainerBlock';
-import Component404 from '@components/Error404';
+import ContainerBlock from "../components/ContainerBlock";
+import Component404 from "@components/Error404";
 
 export default function Custom404() {
   return (

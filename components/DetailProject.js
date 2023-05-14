@@ -1,8 +1,8 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const Item = ({ link, text }) => (
   <p className="mt-3 text-base font-semibold text-gray-700 dark:text-gray-200">
-    {text}:{' '}
+    {text}:{" "}
     <Link href={link}>
       <p
         target="_blank"
@@ -22,9 +22,9 @@ export default function DetailProject({
   repo,
   stack,
 }) {
-  const listFormat = new Intl.ListFormat('en-GB', {
-    style: 'long',
-    type: 'conjunction',
+  const listFormat = new Intl.ListFormat("en-GB", {
+    style: "long",
+    type: "conjunction",
   });
   return (
     <div className="ml-10 mt-5 hidden sm:block">
@@ -37,9 +37,9 @@ export default function DetailProject({
       <Item link={link} text="WebSite" />
       <Item link={repo} text="Repo" />
       <p className="text-base font-semibold text-gray-700 dark:text-gray-200 mr-10 mt-5">
-        Stack:{' '}
+        Stack:{" "}
         <span className="text-base light font-normal italic">
-          {listFormat.format(stack.sort())}{' '}
+          {listFormat.format(stack.sort())}{" "}
         </span>
       </p>
     </div>
