@@ -1,8 +1,8 @@
 import Link from "next/link";
 import userData from "@constants/data";
-import Title from "@components/Title";
-import Tech from "@components/Tech";
-import SocialLink from "@components/SocialLink";
+import Title from "@components/commons/Title";
+import Tech from "@components/about-me/Tech";
+import SocialLink from "@components/commons/SocialLink";
 
 export default function AboutMe() {
   return (
@@ -38,7 +38,7 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort help / enquiry, shoot a
                 <Link
-                  href="/contact#contact"
+                  href="/pages/contact#contact"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   {" "}

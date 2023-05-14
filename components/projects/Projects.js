@@ -1,7 +1,7 @@
 import userData from "@constants/data";
-import ProjectCard from "@components/ProjectCard";
-import Title from "@components/Title";
-import NotProjects from "@components/NotProjects";
+import ProjectCard from "@components/projects/ProjectCard";
+import Title from "@components/commons/Title";
+import NotProjects from "@components/projects/NotProjects";
 
 export default function Projects() {
   return (

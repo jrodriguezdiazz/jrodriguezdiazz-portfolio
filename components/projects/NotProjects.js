@@ -1,5 +1,5 @@
 import userData from "@constants/data";
-import CustomButton from "@components/CustomButton";
+import CustomButton from "@components/commons/CustomButton";
 import Link from "next/link";
 
 export default function NotProjects() {

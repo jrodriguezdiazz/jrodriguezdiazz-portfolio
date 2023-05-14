@@ -1,5 +1,5 @@
-import Title from "@components/Title";
-import Form from "@components/Form";
+import Title from "@components/commons/Title";
+import Form from "@components/contact/Form";
 
 export default function Contact() {
   return (

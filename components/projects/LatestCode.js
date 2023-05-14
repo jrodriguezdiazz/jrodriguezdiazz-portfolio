@@ -1,7 +1,7 @@
 import { useState } from "react";
 import userData from "@constants/data";
-import GithubRepoCard from "@components/GithubRepoCard";
-import CustomButton from "@components/CustomButton";
+import GithubRepoCard from "@components/projects/GithubRepoCard";
+import CustomButton from "@components/commons/CustomButton";
 import Link from "next/link";
 
 export default function LatestCode() {

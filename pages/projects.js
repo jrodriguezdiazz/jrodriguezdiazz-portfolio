@@ -1,5 +1,5 @@
-import ContainerBlock from "../components/ContainerBlock";
-import Projects from "../components/Projects";
+import ContainerBlock from "@components/layout/ContainerBlock";
+import Projects from "@components/projects/Projects";
 
 export default function projects() {
   return (

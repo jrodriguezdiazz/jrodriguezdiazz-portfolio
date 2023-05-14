@@ -209,7 +209,7 @@ const userData = {
     {
       title: "Flixo",
       link: "https://github.com/jrodriguezdiazz/Flixo",
-      imgUrl: "/flixo.png",
+      imgUrl: "/projects/flixo.png",
       repo: "https://github.com/jrodriguezdiazz/Flixo",
       description:
         "🤳🏾 Made to share your best moments and smiles with your friends.",
@@ -219,7 +219,7 @@ const userData = {
     {
       title: "Belphoebe",
       link: "https://t.me/BelphoebeBot",
-      imgUrl: "/belphoebe.png",
+      imgUrl: "/projects/belphoebe.png",
       repo: "https://github.com/jrodriguezdiazz/Belphoebe",
       description:
         "Belphoebe is the virtual assistant of LICEM-Retro, her goal is to help you rent films on our platform, where you will find a great diversity of films 💁🏻‍♀️",
@@ -234,7 +234,7 @@ const userData = {
     {
       title: "School Administrator",
       link: "https://school-administrator-320621.web.app/",
-      imgUrl: "/school-administrator.png",
+      imgUrl: "/projects/school-administrator.png",
       repo: "https://github.com/jrodriguezdiazz/school-administrator",
       description:
         "This platform is an example of a system that will allow managing students of a school",
@@ -243,7 +243,7 @@ const userData = {
     {
       title: "Book Search Engine",
       link: "https://book-search-engine-black.vercel.app",
-      imgUrl: "/book-search-engine.png",
+      imgUrl: "/projects/book-search-engine.png",
       repo: "https://github.com/jrodriguezdiazz/book-search-engine",
       description:
         "🔍 📚 An application that will allow users to search for books by entering a query (Title, Author, etc). Display the resulting books in a list on the page with all the corresponding data.",

@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import userData from "@constants/data";
-import NavbarItem from "@components/NavbarItem";
-import NavbarItemMobile from "@components/NavbarItemMobile";
-import SocialLinkNavbar from "@components/SocialLinkNavbar";
+import NavbarItem from "@components/navigation/NavbarItem";
+import NavbarItemMobile from "@components/navigation/NavbarItemMobile";
+import SocialLinkNavbar from "@components/commons/SocialLinkNavbar";
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme("dark");

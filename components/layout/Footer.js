@@ -1,6 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
-import SocialLinkNavbar from "@components/SocialLinkNavbar";
+import SocialLinkNavbar from "@components/commons/SocialLinkNavbar";
 
 export default function Footer() {
   return (
