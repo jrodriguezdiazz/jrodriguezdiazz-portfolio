@@ -1,5 +1,5 @@
-import ContainerBlock from '../components/ContainerBlock';
-import AboutMe from '../components/AboutMe';
+import ContainerBlock from "../components/ContainerBlock";
+import AboutMe from "../components/AboutMe";
 
 export default function about() {
   return (

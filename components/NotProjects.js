@@ -1,6 +1,6 @@
-import userData from '@constants/data';
-import CustomButton from '@components/CustomButton';
-import Link from 'next/link';
+import userData from "@constants/data";
+import CustomButton from "@components/CustomButton";
+import Link from "next/link";
 
 export default function NotProjects() {
   return (
@@ -9,7 +9,7 @@ export default function NotProjects() {
         <h2 className="text-3xl font-bold leading-snug mb-10 dark:text-gray-300 mx-3">
           At the moment I do not have a project that I would like to show...
           <span className="hidden lg:block">
-            {' '}
+            {" "}
             But you can see what I am preparing on GitHub
           </span>
         </h2>
@@ -19,7 +19,7 @@ export default function NotProjects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <CustomButton text={'View Repositories'} />
+            <CustomButton text={"View Repositories"} />
           </Link>
         </div>
         <div className="flex justify-around">

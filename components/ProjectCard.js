@@ -1,5 +1,5 @@
-import DetailProject from '@components/DetailProject';
-import ProjectImage from '@components/ProjectImage';
+import DetailProject from "@components/DetailProject";
+import ProjectImage from "@components/ProjectImage";
 
 export default function ProjectCard({
   description,

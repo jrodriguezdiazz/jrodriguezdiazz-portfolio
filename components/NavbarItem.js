@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function NavbarItem({ name, href }) {
   const router = useRouter();
@@ -8,8 +8,8 @@ export default function NavbarItem({ name, href }) {
       <p
         className={`text-base ${
           router.asPath === href
-            ? 'text-gray-800 font-bold dark:text-white'
-            : 'text-gray-600 dark:text-gray-300 font-normal'
+            ? "text-gray-800 font-bold dark:text-white"
+            : "text-gray-600 dark:text-gray-300 font-normal"
         }`}
       >
         {name}

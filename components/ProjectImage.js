@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function ProjectImage({
   link,
@@ -23,7 +23,7 @@ export default function ProjectImage({
           {title}
         </h1>
         <h1 className="absolute bottom-10 left-10 text-gray-700 font-bold text-xl">
-          {number.length === 1 ? '0' + number : number}
+          {number.length === 1 ? "0" + number : number}
         </h1>
       </div>
     </Link>

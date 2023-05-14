@@ -1,11 +1,11 @@
-import userData from '@constants/data';
-import Title from '@components/Title';
-import ExperienceCard from '@components/ExperienceCard';
+import userData from "@constants/data";
+import Title from "@components/Title";
+import ExperienceCard from "@components/ExperienceCard";
 
 export default function Experience() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <Title title={'Experience'} />
+      <Title title={"Experience"} />
       <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
         <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
           {/* Experience card */}

@@ -1,23 +1,20 @@
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import Script from 'next/script';
-import { ThemeProvider } from 'next-themes';
-import * as gtag from '../lib/gtag';
-import '../styles/globals.css';
-import { NEXT_PUBLIC_GA_ID } from '@lib/getEnv';
+import Script from "next/script";
+import { ThemeProvider } from "next-themes";
+import "../styles/globals.css";
+import { NEXT_PUBLIC_GA_ID } from "@lib/getEnv";
 
 function MyApp({ Component, pageProps }) {
-  const router = useRouter();
-  useEffect(() => {
-    const handleRouteChange = url => {
-      gtag.pageView(url);
-    };
-
-    router.events.on('routeChangeComplete', handleRouteChange);
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-    };
-  }, [router.events]);
+  // const router = useRouter();
+  // useEffect(() => {
+  //   const handleRouteChange = url => {
+  //     gtag.pageView(url);
+  //   };
+  //
+  //   router.events.on("routeChangeComplete", handleRouteChange);
+  //   return () => {
+  //     router.events.off("routeChangeComplete", handleRouteChange);
+  //   };
+  // }, [router.events]);
 
   return (
     <ThemeProvider defaultTheme="dark" attribute="class">

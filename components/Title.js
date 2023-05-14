@@ -1,7 +1,7 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Title({ title }) {
-  const id = `${title.toLowerCase().replace(' ', '_')}`;
+  const id = `${title.toLowerCase().replace(" ", "_")}`;
   return (
     <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800">
       <h1

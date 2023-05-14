@@ -1,15 +1,11 @@
-import { useEffect, useState } from 'react';
-import userData from '@constants/data';
-import GithubRepoCard from '@components/GithubRepoCard';
-import CustomButton from '@components/CustomButton';
-import Link from 'next/link';
+import { useState } from "react";
+import userData from "@constants/data";
+import GithubRepoCard from "@components/GithubRepoCard";
+import CustomButton from "@components/CustomButton";
+import Link from "next/link";
 
-export default function LatestCode({ repositories }) {
-  const [repos, setRepos] = useState([]);
-
-  useEffect(async () => {
-    setRepos(repositories);
-  }, []);
+export default function LatestCode() {
+  const [repos] = useState([]);
 
   return (
     <section className="bg-[#F1F1F1] dark:bg-gray-900 pb-40">
@@ -23,7 +19,7 @@ export default function LatestCode({ repositories }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <CustomButton text={'View all'} />
+            <CustomButton text={"View all"} />
           </Link>
         </div>
       </div>
