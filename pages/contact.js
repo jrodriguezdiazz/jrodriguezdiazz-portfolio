@@ -1,5 +1,5 @@
-import ContainerBlock from "../components/ContainerBlock";
-import Contact from "../components/Contact";
+import ContainerBlock from "@components/layout/ContainerBlock";
+import Contact from "@components/contact/Contact";
 
 export default function contact() {
   return (

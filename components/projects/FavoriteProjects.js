@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import CustomButton from "@components/CustomButton";
+import CustomButton from "@components/commons/CustomButton";
 
 export default function FavoriteProjects() {
   return (
@@ -10,7 +10,7 @@ export default function FavoriteProjects() {
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-black my-20 md:my-0 dark:text-white">
             Favorite Projects
           </h1>
-          <Link href="/projects">
+          <Link href="/pages/projects">
             <p>
               <CustomButton text={"View all"} />
             </p>

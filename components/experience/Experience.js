@@ -1,6 +1,6 @@
 import userData from "@constants/data";
-import Title from "@components/Title";
-import ExperienceCard from "@components/ExperienceCard";
+import Title from "@components/commons/Title";
+import ExperienceCard from "@components/experience/ExperienceCard";
 
 export default function Experience() {
   return (

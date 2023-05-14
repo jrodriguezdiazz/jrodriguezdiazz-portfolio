@@ -1,5 +1,5 @@
-import DetailProject from "@components/DetailProject";
-import ProjectImage from "@components/ProjectImage";
+import DetailProject from "@components/projects/DetailProject";
+import ProjectImage from "@components/projects/ProjectImage";
 
 export default function ProjectCard(props) {
   const { description, imgUrl, link, number, repo, stack, title, isPrivate } =

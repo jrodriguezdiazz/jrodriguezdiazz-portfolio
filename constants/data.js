@@ -32,6 +32,15 @@ const userData = {
         "Successfully implemented lazy loading technology for ads, significantly increasing ad viewability and engagement, and improving CPM (Cost Per Thousand Impressions).",
         "Collaborated with cross-functional teams including developers, product managers, and third-party vendors to ensure a seamless transition to the new ad-serving mechanism (Ad Browser Configuration Tool (ABT)), minimizing disruption to the website's revenue stream.",
       ],
+      stack: [
+        "Next.js",
+        "Redux.js",
+        "Google Ads",
+        "Node.js",
+        "React.js",
+        "JavaScript",
+        "Jest",
+      ],
     },
     {
       title: "Software Developer",
@@ -45,6 +54,16 @@ const userData = {
       responsibilities: [
         "Redesigned and improved the performance of Verizon's fault reporting system by 18% using Angular.\n",
         "Removed +2000 lines of repeated TypeScript code using the DRY principle.\n",
+      ],
+      stack: [
+        "Angular",
+        "Gitlab",
+        "Node.js",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "HTML",
+        "TypeScript",
       ],
     },
     {
@@ -60,6 +79,16 @@ const userData = {
         "Mentored 4 new appendices, front-end developers, in expanding web development skillset.",
         "Built a virtual library of Dominican jurisprudence optimized for academic and legal use which improved the experience of legal consultation by 13%.",
       ],
+      stack: [
+        "dSPACE",
+        "SASS",
+        "Bootstrap",
+        "Microsoft SQL Server",
+        "JavaScript",
+        "Git",
+        "GitHub",
+        "HTML",
+      ],
     },
     {
       title: "Software Developer",
@@ -73,6 +102,7 @@ const userData = {
       responsibilities: [
         "Developed user interfaces focused on telling the competitiveness history of the Dominican Republic with D3JS, HTML, and CSS, which improved user satisfaction by 31%.",
       ],
+      stack: ["jQuery", "CSS", "JavaScript", "Git", "GitHub", "D3.js", "HTM"],
     },
     {
       title: "Senior Software Developer",
@@ -87,6 +117,23 @@ const userData = {
         "Automated the internal processes of data collection and dashboard generation for the IntelliSys management team, using different micro-services created with NodeJS and Google Cloud Platform.",
         "Developed an application web with Node, React, and HTML/CSS that improved the efficiency of the administrative team in managing employee information by 15%.",
       ],
+      stack: [
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "Material-UI",
+        "Flask",
+        "Looker Studio",
+        "CSS",
+        "Python",
+        "Git",
+        "GitHub",
+        "PostgresSQL",
+        "Jest",
+        "Firebase",
+        "HTML",
+        "Google Cloud Console",
+      ],
     },
     {
       title: "Internship Software Developer",
@@ -94,6 +141,7 @@ const userData = {
       startDate: "2019-04-01",
       endDate: "2019-06-01",
       responsibilities: [],
+      stack: ["React Native", "Firebase", "Firebase", "Expo"],
     },
   ],
   contentLink: [
@@ -209,7 +257,7 @@ const userData = {
     {
       title: "Flixo",
       link: "https://github.com/jrodriguezdiazz/Flixo",
-      imgUrl: "/flixo.png",
+      imgUrl: "/projects/flixo.png",
       repo: "https://github.com/jrodriguezdiazz/Flixo",
       description:
         "🤳🏾 Made to share your best moments and smiles with your friends.",
@@ -219,7 +267,7 @@ const userData = {
     {
       title: "Belphoebe",
       link: "https://t.me/BelphoebeBot",
-      imgUrl: "/belphoebe.png",
+      imgUrl: "/projects/belphoebe.png",
       repo: "https://github.com/jrodriguezdiazz/Belphoebe",
       description:
         "Belphoebe is the virtual assistant of LICEM-Retro, her goal is to help you rent films on our platform, where you will find a great diversity of films 💁🏻‍♀️",
@@ -234,7 +282,7 @@ const userData = {
     {
       title: "School Administrator",
       link: "https://school-administrator-320621.web.app/",
-      imgUrl: "/school-administrator.png",
+      imgUrl: "/projects/school-administrator.png",
       repo: "https://github.com/jrodriguezdiazz/school-administrator",
       description:
         "This platform is an example of a system that will allow managing students of a school",
@@ -243,7 +291,7 @@ const userData = {
     {
       title: "Book Search Engine",
       link: "https://book-search-engine-black.vercel.app",
-      imgUrl: "/book-search-engine.png",
+      imgUrl: "/projects/book-search-engine.png",
       repo: "https://github.com/jrodriguezdiazz/book-search-engine",
       description:
         "🔍 📚 An application that will allow users to search for books by entering a query (Title, Author, etc). Display the resulting books in a list on the page with all the corresponding data.",

@@ -1,4 +1,4 @@
-import CustomError from "@components/CustomError";
+import CustomError from "@components/commons/CustomError";
 
 export default function Error404() {
   return (
